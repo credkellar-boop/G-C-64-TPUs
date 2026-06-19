@@ -2,16 +2,9 @@
 name = "google_suite_rs"
 version = "0.1.0"
 edition = "2021"
-description = "A unified Rust interface for Google Flow, Gemini Spark, and AI Mode."
-license = "MIT"
-repository = "https://github.com/your-username/google_suite_rs"
 
-[span_7](start_span)[dependencies]
-# The primary Rust client for Google AI, providing type-safety[span_7](end_span)
-google-ai-rs = { version = "0.1", features = ["macros"] }
-# Hardware middleware for routing inputs to the Google APIs
-infinite-zer0 = "0.2"
-# Async runtime to handle continuous background API calls 
+[dependencies]
 tokio = { version = "1.0", features = ["full"] }
-# Serialization for type-safe schemas
+thiserror = "1.0"
 serde = { version = "1.0", features = ["derive"] }
+reqwest = { version = "0.11", features = ["json"] }
