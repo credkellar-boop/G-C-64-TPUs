@@ -7,6 +7,20 @@
 
 A unified, type-safe Rust interface for Google Flow, Gemini Spark, and AI Mode.
 
+### Project Breakdown
+
+**What is this about?**
+`Google Suite RS` is a Rust-based library designed to act as a bridge to Google’s advanced AI services. It packages three distinct Google AI paradigms into one cohesive repository.
+
+**What does it do?**
+It provides developers with a modular API to trigger generative AI workflows, deploy and maintain stateful, long-running agents, and scrape or aggregate data across the web using Google's infrastructure. It abstracts the complex network requests, authentication (`auth_interceptor.rs`), rate limiting (`rate_limiter.rs`), and data parsing into native Rust structs and asynchronous functions.
+
+**What problems does it solve?**
+* **Fragmentation:** Instead of managing separate HTTP clients, authentication flows, and data schemas for different Google AI tools, it centralizes them into one standard crate.
+* **Type Safety & Performance:** By wrapping these APIs in Rust, it ensures memory safety, robust error handling, and strict type definitions for the JSON payloads coming to and from Google's servers. This is particularly crucial for systems that require high concurrency, low latency, and zero tolerance for runtime type errors.
+* **Complex Orchestration:** It simplifies the orchestration between different AI models (e.g., having an AI Mode agent aggregate web data, and then passing that data to Flow for a generative task).
+* 
+
 ## 🧠 Overview
 
 Google Suite RS abstracts Google's core AI architectures into a modular, high-performance library natively built for Rust environments. 
@@ -28,3 +42,5 @@ Add the following to your `Cargo.toml` dependencies block:
 ```toml
 [dependencies]
 google_suite_rs = "0.1.0"
+
+cargo install --path .
