@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["check_env"]};
+window.SIDEBAR_ITEMS = {"fn":["check_env","main"]};
