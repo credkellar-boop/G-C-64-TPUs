@@ -3,4 +3,6 @@ pub mod telemetry;
 pub mod error;
 pub mod spark;
 pub mod auth;
+pub use error::GoogleSuiteError;
+pub type Result<T> = std::result::Result<T, GoogleSuiteError>;
 
