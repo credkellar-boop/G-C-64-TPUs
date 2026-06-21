@@ -1,2 +1,2 @@
-createSrcSidebar('[["google_suite_cli",["",[],["google-suite-cli.rs"]]],["google_suite_rs",["",[["telemetry",[],["metrics.rs","mod.rs"]]],["ai_mode.rs","auth.rs","error.rs","lib.rs","models.rs","spark.rs"]]],["gsuite_init",["",[],["gsuite_init.rs"]]]]');
-//{"start":19,"fragment_lengths":[52,136,43]}
+createSrcSidebar('[["google_suite_cli",["",[],["google-suite-cli.rs"]]],["google_suite_rs",["",[["models",[],["flow_config.rs","flow_response.rs","spark_task.rs"]],["telemetry",[],["metrics.rs","mod.rs"]]],["ai_mode.rs","auth.rs","error.rs","lib.rs","models.rs","spark.rs"]]],["gsuite_init",["",[],["gsuite_init.rs"]]]]');
+//{"start":19,"fragment_lengths":[52,204,43]}
