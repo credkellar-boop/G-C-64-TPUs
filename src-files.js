@@ -1,0 +1,2 @@
+createSrcSidebar('[["google_suite_cli",["",[],["google-suite-cli.rs"]]],["google_suite_rs",["",[["telemetry",[],["metrics.rs","mod.rs"]]],["ai_mode.rs","auth.rs","error.rs","lib.rs","spark.rs"]]],["gsuite_init",["",[],["gsuite_init.rs"]]]]');
+//{"start":19,"fragment_lengths":[52,124,43]}
