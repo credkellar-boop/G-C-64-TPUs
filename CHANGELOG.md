@@ -8,4 +8,3 @@ All notable changes to this project will be documented in this file.
 - Core architecture for `flow`, `spark`, and `ai_mode` modules.
 - Custom `GoogleSuiteError` handling using `thiserror`.
 - Initial boilerplate integration tests.
-- 
