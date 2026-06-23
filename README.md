@@ -1,4 +1,4 @@
-G-C-64-TPUS 🚀
+## G-C-64-TPUS 🚀
 
 <!-- 🛠️ Architecture, Core Components & Profile Badges -->
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
