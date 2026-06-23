@@ -1,4 +1,4 @@
-use google_suite_rs::{flow, spark, ai_mode};
+use g_c_64_tpus::{flow, spark, ai_mode};
 use infinite_zer0::Middleware;
 
 #[tokio::main]
