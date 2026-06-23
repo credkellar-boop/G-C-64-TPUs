@@ -38,7 +38,7 @@ A unified, type-safe Rust interface for Google Flow, Gemini Spark, and AI Mode.
 
 ## 🧠 Overview
 
-Google Suite RS abstracts Google's core AI architectures into a modular, high-performance library natively built for Rust environments. 
+G-C-64-TPUS abstracts Google's core AI architectures into a modular, high-performance library natively built for Rust environments. 
 
 ### System Architecture Tiers
 
