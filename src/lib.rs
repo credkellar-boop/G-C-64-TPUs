@@ -1,10 +1,11 @@
-pub mod ai_mode;
-pub mod telemetry;
-pub mod error;
-pub mod spark;
 pub mod auth;
-pub mod models;
-pub mod flow; //
+// pub mod client;
+// pub mod config;
+// pub mod errors;
 
-pub use error::GoogleSuiteError;
-pub type Result<T> = std::result::Result<T, GoogleSuiteError>;
+// pub use client::CloudClient;
+// pub use config::Config;
+
+pub fn init() {
+    // Placeholder for initialization logic
+}
