@@ -1,7 +1,6 @@
-# Google Suite RS 🚀
+G-C-64-TPUS 🚀
 
 <!-- 🛠️ Architecture, Core Components & Profile Badges -->
-![Crates.io Version](https://img.shields.io/crates/v/google_suite_rs?style=for-the-badge&color=orange)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen?style=for-the-badge)
 
