@@ -1,0 +1,1 @@
+rd_("AoReturns the argument unchanged.00BaCalls <code>U::from(self)</code>.00CkRepresents the different types of authentication errors \xe2\x80\xa6CiValidates an incoming API token. In a production edge \xe2\x80\xa6CiA structure to hold authenticated client or node data \xe2\x80\xa6")

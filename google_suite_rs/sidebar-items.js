@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["ai_mode","auth","error","flow","models","spark","telemetry"],"type":["Result"]};
