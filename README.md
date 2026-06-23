@@ -50,10 +50,4 @@ The library uses a modular design to abstract Google's three primary compute tie
 
 ---
 
-## 📦 Installation
 
-Add the following to your `Cargo.toml` dependencies block:
-
-```toml
-[dependencies]
-google_suite_rs = "0.1.0"
